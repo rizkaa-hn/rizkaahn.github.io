@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome To My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+<section class="schedule">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="schedule.html">COLLEGE SCHEDULE</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>JADWAL KULIAH</h1>
+    <p>berikut ini merupakan jadwal kuliah di semester 2 ini</p>
+    
+</div>
+</section>
+<!----- jadwal ---->
+<section class="jadwal">
+    <table>    
+        <tr>
+            <th>Kode Matkul</th>
+            <th>Mata Kuliah</th>
+            <th>SKS</th>
+            <th>Kelas</th>
+            <th>Pengampu</th>
+            <th>Hari</th>
+            <th>Jam</th>
+        </tr>
+        <tr>
+            <td>IF21202</td>
+            <td>Basis Data II</td>
+            <td>2</td>
+            <td>B</td>
+            <td>Lasmedi Afuan</td>
+            <td>Senin</td>
+            <td>08.50 - 10.35</td>
+        </tr>
+        <tr>
+            <td>IF21203</td>
+            <td>Struktur Data</td>
+            <td>3</td>
+            <td>C</td>
+            <td>Bangun Wijayanto</td>
+            <td>Senin</td>
+            <td>13.00 - 15.40</td>
+        </tr>
+        <tr>
+            <td>IF21207</td>
+            <td>Praktikum Sistem Operasi</td>
+            <td>1</td>
+            <td>B</td>
+            <td>Arief Kelik</td>
+            <td>Senin</td>
+            <td>14.50 - 15.40</td>
+        </tr>
+        <tr>
+            <td>IF21204</td>
+            <td>Praktikum Struktur Data</td>
+            <td>1</td>
+            <td>A</td>
+            <td>Bangun Wijayanto</td>
+            <td>Jumat</td>
+            <td>07.00 - 07.50</td>
+        </tr>
+        <tr>
+            <td>IF21201</td>
+            <td>Probabilitas dan Statistika</td>
+            <td>2</td>
+            <td>A</td>
+            <td>Yogiek Indra</td>
+            <td>Selasa</td>
+            <td>07.00 - 08.45</td>
+        </tr>
+        <tr>
+            <td>UN0101</td>
+            <td>Pancasila</td>
+            <td>2</td>
+            <td>A</td>
+            <td>Musmualim</td>
+            <td>Selasa</td>
+            <td>10.40 - 12.25</td>
+        </tr>
+        <tr>
+            <td>UNO114</td>
+            <td>Jati Diri UNSOED</td>
+            <td>2</td>
+            <td>A</td>
+            <td>Nurul Hidayat</td>
+            <td>Selasa</td>
+            <td>13.00 - 14.45</td>
+        </tr>
+        <tr>
+            <td>IF21206</td>
+            <td>Sistem Operas</td>
+            <td>3</td>
+            <td>B</td>
+            <td>Nur Chasannah</td>
+            <td>Rabu</td>
+            <td>09.45 - 12.25</td>
+        </tr>
+        <tr>
+            <td>IF21208</td>
+            <td>Web Design</td>
+            <td>2</td>
+            <td>B</td>
+            <td>Nurul Hidayat</td>
+            <td>Kamis</td>
+            <td>08.50 - 10.35</td>
+        </tr>
+        <tr>
+            <td>IF21209</td>
+            <td>E-Commerce</td>
+            <td>2</td>
+            <td>B</td>
+            <td>Nofiyati</td>
+            <td>Kamis</td>
+            <td>10.40 - 12.25</td>
+        </tr>
+        <tr>
+            <td>IF21205</td>
+            <td>Matematika Diskrit</td>
+            <td>3</td>
+            <td>B</td>
+            <td>Nofiyati</td>
+            <td>Jumat</td>
+            <td>07.00 - 09.40</td>
+        </tr>
+    </table>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----- footer ---->
+<section class="footer">
+    <h4>CONTACT ME</h4>
+    <P>Bisa nih, kontak-kontakku dibawah ya!!</P>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+
+</html>

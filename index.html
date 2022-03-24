@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome To My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="schedule.html">COLLEGE SCHEDULE</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>HELLO</h1>
+    <p>Website ini dibuat untuk memenuhi tugas Mata Kuliah Web Design</p>
+    <p>silakan di scroll</p>
+</div>
+</section>
+<!---- about me ---->
+<section class="about-me">
+    <h1>HALO,<br>NAMAKU RIZKA</h1>
+    <div class="row">
+        <div class="about-col">
+            <p>Aku adalah seorang mahasiswi dari Univeristas Jenderal Soedirman<br>
+                atau yang biasa disebut UNSOED. Angkatan 2021 nih, lulusan corona wkwk.
+                Tapi ga papa, itu bisa dijadikan sebagai salah satu ceritaku yang 
+                sebenarnya ga menarik banget. Yang penting tetep bersyukur sama 
+                Tuhan Yang Maha Esa dong.</p>
+            <p>Oh iya lupa, aku ini anak Informatika, dari Fakultas Teknik. Banyak
+                yang bilang kalo kita 'buaya'. Mungkin itu untuk sebagian orang ya,
+                aku sendiri ga suka sama cowok situ. Karakter 2d paling best lah. Jadi tolong jangan coba-coba</p>
+            <h4>Nama  : Rizka Hasna Nabila<br>
+            NIM   : H1D021010<br>
+            TTL   : 30 Juli 2003<br>
+           Alamat: Jalan Kalisari Gang Kencana no 15 Purwokerto Utara<br>
+            No.Hp : 082241166425</h4>   
+        </div>
+        <div class="about-col">
+            <img src="images/me.jpeg">
+        </div>
+    </div>
+</section>
+
+<!----- homepage ---->
+<section class="homepage">
+    <h2>An Ode To Fearless Women</h2>
+    <p>defined by no man, you are your own story,</p>
+    <p>blazing through the world, turning history into herstory</p>
+    <p>and when they dare to tell you about</p>
+    <p>all the things you cannot be,</p>
+    <p>you smile and tell them,</p>
+    <p>"I am both war and woman and you cannot stop me"</p>
+    <p>―nikita gill―</p>
+</section>
+
+<!----- tambahan ---->
+<section class="tambahan">
+    <div class="row">
+        <div class="tambahan-col">
+            <img src="images/books.jpg">
+        </div>
+        <div class="tambahan-col">
+            <img src="images/manga.jpg">
+        </div>
+        <div class="tambahan-col">
+            <img src="images/camera.jpg">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</section>
+
+<!----- footer ---->
+<section class="footer">
+    <h4>CONTACT ME</h4>
+    <P>Bisa nih, kontak-kontakku dibawah ya!!</P>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>

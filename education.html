@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome To My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+<section class="pendidikan">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="schedule.html">COLLEGE SCHEDULE</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>RIWAYAT PENDIDIKAN</h1>
+    <p>berikut ini merupakan riwayat pendidikan formal yang pernah aku tempuh</p>
+    
+</div>
+</section>
+<!----- education ---->
+<section class="education">
+    <div class="row">
+        <div class="education-col">
+            <h3>SD 2 AL IRSYAD<br>AL ISLAMIYYAH</h3>
+            <p>Ini adalah sekolah swasta islam dari Yayasan Al Irsyad. Tempatnya ada di Jatiwinangun Purwokerto Timur</p>
+            <br>
+            <img src="images/sd2.jpg">
+        </div>
+        <div class="education-col">
+            <h3>SMP AL IRSYAD<br>AL ISLAMIYYAH</h3>
+            <p>Ini adalah sekolah dari Yayasan Al Irsyad. Tempatnya ada di Jalan Al Irsyad di dekat GOR Satria Purwokerto</p>
+            <img src="images/smp.jpg">
+        </div>
+        <div class="education-col">
+            <h3>SMA NEGERI 1 <br> PURWOKERTO</h3>
+            <p>Sekolah negeri pertamaku dan ini termasuk sekolah favorit di Purwokerto. Letaknya di dekat Tugu Pembangunan Purwokerto</p>
+            <img src="images/sma1.jpeg">
+        </div>
+    </div>
+</section>
+
+<!----- poems---->
+<section class="poems">
+    <p>education is an admirable thing,</p>
+    <p>but it is well to rembember from time to time</p>
+    <p>that nothing that is worth knowing can be taught.</p>
+    <p>―oscar wilde―</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----- footer ---->
+<section class="footer">
+    <h4>CONTACT ME</h4>
+    <P>Bisa nih, kontak-kontakku dibawah ya!!</P>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+
+</html>
